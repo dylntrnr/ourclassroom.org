@@ -42,9 +42,73 @@ body {
 }
 
 .page {
+    /*height:620px;*/
+    /*width:100%;*/
+    padding: 4rem 2rem;
+}
+.text {
+    height:100%;
+    /*padding-top: 2rem;*/
+}
+.description {
+    width: 100%;
+    line-height: 1.5;
+    font-weight:500;
+}
+.video-title {
+    font-size:7.2rem;
+    margin-top: 1rem;
+}
+.page .video {
+    float:none;
+}
+
+#page1 {
+    background-color:#fffbdc;
+}
+.introText {
+    float:none;
+}
+.title {
+    font-size:7.2rem;
+}
+.subtitle {
+    /*width: 30rem;*/
+    line-height: 1.5;
+    margin:1rem 0;
+    font-size:2.1rem;
+}
+.poster {
+    border:2rem solid #3f3e37;
+    float:none;
+    max-width:44.8rem;
+}
+#page2 {
+    background-color: #e5e2c6;
+}
+
+#page3 {
+    background-color: #bfbca5;
+}
+
+#page4 {
+    background-color: #7f7d6e;
+}
+
+#page5 {
+    background-color: #3f3e37;
+    color:#fffbdc;
+}
+
+
+/* The dreaded media-query... */
+
+@media only screen and (min-width: 1270px) {
+    /* This is so the videos don't shit the bed and start floating all over the place */
+.page {
     height:620px;
     /*width:100%;*/
-    padding:50px;
+    padding:5rem;
 }
 .text {
     float:left;
@@ -63,16 +127,10 @@ body {
 .page .video {
     float:right;
 }
-
-#page1 {
-    background-color:#fffbdc;
-}
 .introText {
     float:left;
 }
-.title {
-    font-size:7.2rem;
-}
+
 .subtitle {
     /*width: 30rem;*/
     line-height: 1.5;
@@ -80,22 +138,8 @@ body {
     font-size:2.1rem;
 }
 .poster {
-    border:20px solid #3f3e37;
+    border:2rem solid #3f3e37;
     float:right;
 }
-#page2 {
-    background-color: #e5e2c6;
-}
 
-#page3 {
-    background-color: #bfbca5;
-}
-
-#page4 {
-    background-color: #7f7d6e;
-}
-
-#page5 {
-    background-color: #3f3e37;
-    color:#fffbdc;
 }
