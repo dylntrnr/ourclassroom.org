@@ -54,6 +54,7 @@ body {
 .description {
     width: 30rem;
     line-height: 1.5;
+    font-weight:300;
 }
 .video-title {
     font-size:7.2rem;
