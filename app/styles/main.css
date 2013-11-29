@@ -57,7 +57,7 @@ body {
     font-weight:500;
 }
 .video-title {
-    font-size:7.2rem;
+    font-size:5rem;
     margin-top: 1rem;
 }
 .page .video {
@@ -72,7 +72,7 @@ body {
     float:none;
 }
 .title {
-    font-size:7.2rem;
+    font-size:5rem;
 }
 .subtitle {
     /*width: 30rem;*/
@@ -112,6 +112,12 @@ body {
     float:none;
     width:654px;
     margin:0 auto;
+}
+.title {
+    font-size:7.2rem;
+}
+.video-title {
+    font-size:7.2rem;
 }
 }
 
